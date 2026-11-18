@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Informe técnico de Ecovatio: tabla maestra de THD, conclusiones, glosario y webgrafía.">
+  <title>Ecovatio Energía Digital | Informe técnico</title>
+</head>
+<body>
+  <header>
+    <h1 id="inicio">Informe técnico: tecnologías habilitadoras digitales en energía y renovables</h1>
+    <p>Proyecto «THD Factory» · Unidad 2: Caracterización de tecnologías habilitadoras digitales</p>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="catalogo.html">Catálogo</a></li>
+        <li><a href="sostenibilidad.html">Sostenibilidad</a></li>
+        <li><a href="mercados.html">Mercados</a></li>
+        <li><a href="it-ot.html">IT/OT y caso de éxito</a></li>
+        <li><a href="informe.html">Informe técnico</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="indice">
+      <h2>Índice</h2>
+      <ol>
+        <li><a href="#resumen">Resumen ejecutivo</a></li>
+        <li><a href="#tabla-maestra">Tabla maestra de THD</a></li>
+        <li><a href="#conclusiones">Conclusiones del equipo</a></li>
+        <li><a href="#glosario">Glosario</a></li>
+        <li><a href="#webgrafia">Webgrafía</a></li>
+        <li><a href="#herramientas">Declaración de uso de herramientas</a></li>
+      </ol>
+    </section>
+
+    <section id="resumen">
+      <h2>1. Resumen ejecutivo</h2>
+      <p>Ecovatio Energía Digital es una consultora ficticia que digitaliza productores renovables, comunidades energéticas e industrias con autoconsumo. Este informe analiza las diez tecnologías habilitadoras digitales con las que trabajamos: IoT, Big Data, inteligencia artificial, nube, 5G, ciberseguridad, robótica y drones, gemelo digital, blockchain y, como tecnología emergente, los materiales avanzados (células de perovskita). Para cada una se describen sus características, sus aplicaciones, si actúa en la parte de negocio (IT) o en la de planta (OT) y la mejora que aporta. La conclusión principal es que el valor aparece al combinarlas: los sensores generan datos, la nube los guarda, la IA los convierte en previsiones y decisiones y la ciberseguridad protege una infraestructura crítica. En nuestro caso de éxito, el error de previsión bajó del 18 % al 7 % y la producción anual subió de 112 a 118 GWh.</p>
+    </section>
+
+    <section id="tabla-maestra">
+      <h2>2. Tabla maestra de THD</h2>
+      <table>
+        <caption>Tecnologías habilitadoras digitales de Ecovatio: descripción, características, aplicaciones, entorno y mejora</caption>
+        <thead>
+          <tr>
+            <th scope="col">THD</th>
+            <th scope="col">Descripción</th>
+            <th scope="col">Características</th>
+            <th scope="col">Áreas de aplicación</th>
+            <th scope="col">Entorno</th>
+            <th scope="col">Mejora aportada</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row"><a href="catalogo.html#iot">IoT</a></th>
+            <td>Sensores conectados en equipos físicos que envían datos de forma automática</td>
+            <td>Bajo coste y consumo, tiempo real, une lo físico con lo digital</td>
+            <td>Producción por string, vibraciones de aerogeneradores, meteorología, contadores inteligentes</td>
+            <td>Ambos</td>
+            <td>Detección de averías en minutos; más disponibilidad</td>
+          </tr>
+          <tr>
+            <th scope="row"><a href="catalogo.html#bigdata">Big Data</a></th>
+            <td>Técnicas para almacenar y analizar enormes volúmenes de datos variados</td>
+            <td>Las 5 V, unificación de fuentes, cuadros de mando</td>
+            <td>Rendimiento de plantas, hábitos de consumo, CO₂ evitado, pérdidas en la red</td>
+            <td>IT</td>
+            <td>Decisiones de inversión y venta basadas en datos</td>
+          </tr>
+          <tr>
+            <th scope="row"><a href="catalogo.html#ia">Inteligencia artificial</a></th>
+            <td>Programas que aprenden de los datos para predecir y optimizar</td>
+            <td>Aprendizaje automático, predicción, optimización, visión artificial</td>
+            <td>Previsión de producción, gestión de baterías, mantenimiento predictivo, análisis de imágenes de drones</td>
+            <td>Ambos</td>
+            <td>Menos penalizaciones por desvíos; menos averías</td>
+          </tr>
+          <tr>
+            <th scope="row"><a href="catalogo.html#nube">Nube</a></th>
+            <td>Uso de servidores y programas a través de internet con pago por uso (infraestructura)</td>
+            <td>IaaS, PaaS y SaaS; escalable; acceso desde cualquier lugar</td>
+            <td>Datos de sensores, plataformas de comunidades energéticas, facturación</td>
+            <td>IT</td>
+            <td>Menos inversión inicial; gestión de muchas plantas desde un solo lugar</td>
+          </tr>
+          <tr>
+            <th scope="row"><a href="catalogo.html#5g">5G</a></th>
+            <td>Red móvil de quinta generación (conectividad)</td>
+            <td>Alta velocidad, latencia de milisegundos, muchos dispositivos, redes privadas</td>
+            <td>Sensores en grandes plantas, vídeo de drones, redes inteligentes</td>
+            <td>OT</td>
+            <td>Plantas remotas siempre conectadas; control en tiempo real</td>
+          </tr>
+          <tr>
+            <th scope="row"><a href="catalogo.html#ciberseguridad">Ciberseguridad</a></th>
+            <td>Medidas para proteger sistemas, datos y equipos conectados</td>
+            <td>Confidencialidad, integridad y disponibilidad; prevención, detección y respuesta; NIS2</td>
+            <td>Protección del SCADA, segmentación de redes, seguridad de inversores, datos de clientes</td>
+            <td>Ambos</td>
+            <td>Evita desconexiones, apagones y robos de datos</td>
+          </tr>
+          <tr>
+            <th scope="row"><a href="catalogo.html#robotica">Robótica y drones</a></th>
+            <td>Máquinas autónomas que hacen tareas físicas repetitivas o peligrosas</td>
+            <td>Autónomas, con cámaras y sensores, contratables como servicio</td>
+            <td>Limpieza de paneles en seco, inspección termográfica, inspección de palas</td>
+            <td>OT</td>
+            <td>Más producción, cero agua y menos riesgos para los técnicos</td>
+          </tr>
+          <tr>
+            <th scope="row"><a href="catalogo.html#gemelo">Gemelo digital</a></th>
+            <td>Copia virtual de una instalación real alimentada con datos reales</td>
+            <td>Datos en tiempo real, simulación de escenarios, combina varias THD</td>
+            <td>Diseño de plantas, repotenciación, dimensionado de baterías</td>
+            <td>Ambos</td>
+            <td>Detecta pérdidas ocultas; inversiones sin riesgo</td>
+          </tr>
+          <tr>
+            <th scope="row"><a href="catalogo.html#blockchain">Blockchain</a></th>
+            <td>Registro compartido e inalterable entre varios participantes</td>
+            <td>Distribuido, inmutable, trazable, contratos inteligentes</td>
+            <td>Garantías de origen, intercambio P2P en comunidades, pagos automáticos</td>
+            <td>IT</td>
+            <td>Confianza en el origen renovable; reparto transparente</td>
+          </tr>
+          <tr>
+            <th scope="row"><a href="catalogo.html#materiales">Materiales avanzados (emergente)</a></th>
+            <td>Materiales nuevos como la perovskita, que hacen células solares más eficientes</td>
+            <td>Mayor eficiencia, capas finas y ligeras, en desarrollo</td>
+            <td>Paneles tándem de alta eficiencia, integración en edificios</td>
+            <td>OT</td>
+            <td>Más energía en el mismo espacio y con menos material</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="conclusiones">
+      <h2>3. Conclusiones del equipo</h2>
+      <ul>
+        <li>Las THD no son útiles por separado: <strong>se apoyan unas en otras</strong>. Los sensores sin análisis solo generan ruido, y la IA sin datos fiables no sirve.</li>
+        <li>Las renovables tienen un problema propio, que <strong>no producen cuando queremos</strong>, y la digitalización (previsión, almacenamiento, centrales virtuales) es lo que permite solucionarlo.</li>
+        <li>La <strong>convergencia IT/OT</strong> es la gran oportunidad del sector, pero también su gran riesgo, porque la energía es una infraestructura crítica. Por eso la ciberseguridad tiene que estar incluida desde el principio.</li>
+        <li>Producir energía limpia no basta: también hay que aplicar la <strong>economía circular</strong> a los equipos (alquiler, extensión de vida y reciclaje).</li>
+        <li>Las THD emergentes, como las perovskitas, harán que cada metro cuadrado de tejado o fachada pueda producir energía, abriendo mercados nuevos.</li>
+        <li>Como equipo, hemos aprendido a diferenciar la parte de negocio de la de planta y a justificar cada tecnología con un beneficio medible.</li>
+      </ul>
+    </section>
+
+    <section id="glosario">
+      <h2>4. Glosario</h2>
+      <dl>
+        <dt>Cobot</dt>
+        <dd>Robot colaborativo diseñado para trabajar en el mismo espacio que las personas de forma segura.</dd>
+        <dt>Comunidad energética</dt>
+        <dd>Agrupación de ciudadanos, pymes o entidades locales que producen, comparten y gestionan su propia energía renovable.</dd>
+        <dt>Desvío</dt>
+        <dd>Diferencia entre la energía que un productor se comprometió a entregar en el mercado y la que realmente produjo; suele estar penalizada.</dd>
+        <dt>Gemelo digital</dt>
+        <dd>Modelo virtual de un objeto, proceso o instalación real que se actualiza con datos reales y permite simular cambios.</dd>
+        <dt>HPC (computación de alto rendimiento)</dt>
+        <dd>Uso de superordenadores o grupos de servidores trabajando juntos para resolver cálculos muy complejos, como los modelos meteorológicos.</dd>
+        <dt>IaaS (infraestructura como servicio)</dt>
+        <dd>Modelo de nube en el que se alquilan servidores, almacenamiento y redes virtuales y el cliente instala lo que necesita.</dd>
+        <dt>IoT (Internet de las cosas)</dt>
+        <dd>Red de objetos físicos con sensores y conexión que intercambian datos sin intervención humana.</dd>
+        <dt>JIT (just in time, justo a tiempo)</dt>
+        <dd>Sistema de producción y suministro en el que los materiales llegan solo cuando se necesitan, para reducir stock y desperdicio.</dd>
+        <dt>NFT (token no fungible)</dt>
+        <dd>Certificado digital único registrado en una blockchain que acredita la propiedad o autenticidad de un activo.</dd>
+        <dt>Perovskita</dt>
+        <dd>Familia de materiales con una estructura cristalina concreta que absorbe muy bien la luz y se usa para fabricar células solares de alta eficiencia.</dd>
+        <dt>Repotenciación</dt>
+        <dd>Sustituir los equipos antiguos de una instalación (por ejemplo, aerogeneradores) por otros más modernos y potentes, aprovechando el emplazamiento y la conexión a la red.</dd>
+        <dt>SaaS (software como servicio)</dt>
+        <dd>Programa que se usa a través de internet pagando una suscripción, sin instalarlo en el ordenador propio.</dd>
+        <dt>SCADA</dt>
+        <dd>Sistema de supervisión y control que permite vigilar y manejar desde una pantalla los equipos de una planta.</dd>
+        <dt>VPP (central eléctrica virtual)</dt>
+        <dd>Conjunto de muchas instalaciones pequeñas de generación, almacenamiento o consumo que se gestionan con software como si fueran una sola central.</dd>
+      </dl>
+    </section>
+
+    <section id="webgrafia">
+      <h2>5. Webgrafía</h2>
+      <ol>
+        <li>Ministerio de Industria y Turismo. <em>Industria Conectada 4.0</em>. <a href="https://www.industriaconectada40.gob.es/">https://www.industriaconectada40.gob.es/</a></li>
+        <li>Comisión Europea. <em>Industry 5.0</em>. <a href="https://research-and-innovation.ec.europa.eu/research-area/industrial-research-and-innovation/industry-50_en">https://research-and-innovation.ec.europa.eu/research-area/industrial-research-and-innovation/industry-50_en</a></li>
+        <li>Red Eléctrica. <a href="https://www.ree.es/es">https://www.ree.es/es</a></li>
+        <li>IDAE, Instituto para la Diversificación y Ahorro de la Energía. <a href="https://www.idae.es/">https://www.idae.es/</a></li>
+        <li>IRENA, Agencia Internacional de Energías Renovables. <a href="https://www.irena.org/">https://www.irena.org/</a></li>
+        <li>INCIBE, Instituto Nacional de Ciberseguridad. <a href="https://www.incibe.es/">https://www.incibe.es/</a></li>
+        <li>Comisión Europea. <em>Directiva NIS2</em>. <a href="https://digital-strategy.ec.europa.eu/es/policies/nis2-directive">https://digital-strategy.ec.europa.eu/es/policies/nis2-directive</a></li>
+        <li>ISO. <em>ISO/IEC 27001 Information security management systems</em>. <a href="https://www.iso.org/standard/27001">https://www.iso.org/standard/27001</a></li>
+        <li>ISA. <em>ISA/IEC 62443 Series of Standards</em>. <a href="https://www.isa.org/standards-and-publications/isa-standards/isa-iec-62443-series-of-standards">https://www.isa.org/standards-and-publications/isa-standards/isa-iec-62443-series-of-standards</a></li>
+        <li>Fundación Ellen MacArthur. <em>Economía circular</em>. <a href="https://www.ellenmacarthurfoundation.org/">https://www.ellenmacarthurfoundation.org/</a></li>
+        <li>Naciones Unidas. <em>Objetivos de Desarrollo Sostenible</em>. <a href="https://www.un.org/sustainabledevelopment/es/objetivos-de-desarrollo-sostenible/">https://www.un.org/sustainabledevelopment/es/objetivos-de-desarrollo-sostenible/</a></li>
+        <li>Naciones Unidas. <em>ODS 7: Energía asequible y no contaminante</em>. <a href="https://www.un.org/sustainabledevelopment/es/energy/">https://www.un.org/sustainabledevelopment/es/energy/</a></li>
+        <li>Naciones Unidas. <em>ODS 9: Industria, innovación e infraestructura</em>. <a href="https://www.un.org/sustainabledevelopment/es/infrastructure/">https://www.un.org/sustainabledevelopment/es/infrastructure/</a></li>
+        <li>Naciones Unidas. <em>ODS 12: Producción y consumo responsables</em>. <a href="https://www.un.org/sustainabledevelopment/es/sustainable-consumption-production/">https://www.un.org/sustainabledevelopment/es/sustainable-consumption-production/</a></li>
+        <li>Naciones Unidas. <em>ODS 13: Acción por el clima</em>. <a href="https://www.un.org/sustainabledevelopment/es/climate-change-2/">https://www.un.org/sustainabledevelopment/es/climate-change-2/</a></li>
+        <li>Som Energia. <em>Cooperativa de energía renovable</em>. <a href="https://www.somenergia.coop/es/">https://www.somenergia.coop/es/</a></li>
+        <li>Next Kraftwerke. <em>Central eléctrica virtual</em>. <a href="https://www.next-kraftwerke.com/">https://www.next-kraftwerke.com/</a></li>
+        <li>Fluence. <em>Almacenamiento de energía con baterías</em>. <a href="https://fluenceenergy.com/">https://fluenceenergy.com/</a></li>
+        <li>SkySpecs. <em>Inspección de aerogeneradores con drones</em>. <a href="https://skyspecs.com/">https://skyspecs.com/</a></li>
+        <li>Oxford PV. <em>Células solares tándem perovskita-silicio</em>. <a href="https://www.oxfordpv.com/">https://www.oxfordpv.com/</a></li>
+      </ol>
+    </section>
+
+    <section id="herramientas">
+      <h2>6. Declaración de uso de herramientas</h2>
+      <ul>
+        <li><strong>Inteligencia artificial:</strong> hemos usado un asistente de IA (Claude, de Anthropic) para generar un primer borrador de la estructura HTML y de los textos de las páginas, y las ilustraciones SVG sencillas de la carpeta <code>img</code>.</li>
+        <li><strong>Qué hemos verificado:</strong> que las empresas y proyectos citados como ejemplos reales existen y que todos los enlaces externos funcionan; que las definiciones de cada THD son correctas comparándolas con las fuentes de la webgrafía; y que el código HTML es válido con el <a href="https://validator.w3.org/">validador del W3C</a>.</li>
+        <li><strong>Qué hemos hecho nosotros:</strong> revisar y reescribir los textos con nuestras palabras, adaptar los ejemplos al sector, decidir los productos y precios, y preparar la defensa oral.</li>
+        <li><strong>Otras herramientas:</strong> editor de código, GitHub y GitHub Pages para la publicación.</li>
+        <li><strong>Datos ficticios:</strong> la empresa Ecovatio, sus productos y precios, el cliente Renovables del Moncayo, sus indicadores y su testimonio son inventados para el proyecto.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <hr>
+    <p><a href="#inicio">Volver arriba</a> · <a href="index.html">Inicio</a></p>
+  </footer>
+</body>
+</html>

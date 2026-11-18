@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="120" viewBox="0 0 320 120">
+  <rect width="320" height="120" rx="14" fill="#14532d"/>
+  <circle cx="60" cy="52" r="18" fill="#facc15"/>
+  <g stroke="#facc15" stroke-width="3">
+    <line x1="60" y1="20" x2="60" y2="28"/><line x1="60" y1="76" x2="60" y2="84"/>
+    <line x1="28" y1="52" x2="36" y2="52"/><line x1="84" y1="52" x2="92" y2="52"/>
+    <line x1="37" y1="29" x2="43" y2="35"/><line x1="77" y1="69" x2="83" y2="75"/>
+    <line x1="83" y1="29" x2="77" y2="35"/><line x1="43" y1="69" x2="37" y2="75"/>
+  </g>
+  <path d="M45 100 Q60 80 105 75 Q95 100 45 100 Z" fill="#86efac"/>
+  <text x="120" y="58" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="bold" fill="#ffffff">Ecovatio</text>
+  <text x="121" y="84" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#86efac">Energía Digital</text>
+</svg>
